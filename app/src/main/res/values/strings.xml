@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">MP_Lab_Reports</string>
+    <string name="click_me">Click Me!</string>
+    <string name="hello_world">Hello World!!...</string>
+    <string name="btn1">Cancel</string>
+    <string name="btn2">Submit\n</string>
+    <string name="txtfield">Enter Your Name</string>
+    <string name="contact">Contact\n</string>
+    <string name="go_back">GO BACK</string>
+    <string name="dialog">Dialog</string>
+    <string name="sports">Sports</string>
+    <string name="na">N/A</string>
+    <string name="country">Country</string>
+    <string name="gender">Gender</string>
+    <string name="full_name">Full Name</string>
+    <string name="profile">Profile</string>
+    <string name="profile_icon_button">profile_icon_button</string>
+    <string name="text_at_50dp_50dp">Text at (50dp, 50dp)</string>
+    <string name="another_text_at_200dp_120dp_with_fixed_width">Another text at (200dp, 120dp) with fixed width</string>
+    <string name="button_at_80dp_250dp">Button at (80dp, 250dp)</string>
+    <string name="app_icon">App Icon</string>
+    <string name="test_one">Box 1</string>
+    <string name="test_two">Box 2</string>
+    <string name="test_three">Box 3</string>
+    <string name="text">Absolute Layout</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the terms and conditions</string>
+    <string name="user_details">User Details</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="home">Home</string>
+
+    <string-array name="custom_description_list">
+        <item>The iconic Electric-type mascot of the Pokémon series, known for its cute appearance and thunderbolt attack.</item>
+        <item>A spooky Ghost/Poison-type with a mischievous grin and strong special attack power.</item>
+        <item>The evolved form of Pikachu, packing even more Electric-type power and attitude.</item>
+        <item>A classic Grass/Poison-type starter known for its plant bulb and balanced abilities.</item>
+        <item>A powerful Fire/Flying-type dragon with a fiery breath and impressive combat strength.</item>
+        <item>A Water/Dark-type ninja-like Pokémon known for its speed and stylish battle moves.</item>
+        <item>A loyal and friendly Water-type starter known for its shell and water-based attacks.</item>
+        <item>A Fighting/Steel-type Pokémon admired for its aura-sensing abilities and warrior-like demeanor.</item>
+        <item>A gigantic, sleepy Normal-type with massive HP and surprising strength when awakened.</item>
+        <item>A versatile Normal-type with many evolutions, known for its adaptability and adorable look.</item>
+    </string-array>
+
+    <string name="choose_pokemon">Pokemon</string>
+    <string name="pokemon_recycler_list">pokemon_recycler_list</string>
+
+
+    <string name="imgDes">This is Pikachu Image..</string>
+    <string name="list_item_title">This is Title........</string>
+    <string name="list_item_desc"> This is Image Description..</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="recycler_view_list">Recycler View List</string>
+
+    <string-array name="custom_image_list">
+        <item>Pikachu</item>
+        <item>Gengar</item>
+        <item>Raichu</item>
+        <item>Bulbasaur</item>
+        <item>Charizard</item>
+        <item>Greninja</item>
+        <item>Squirtle</item>
+        <item>Lucario</item>
+        <item>Snorlax</item>
+        <item>Eevee</item>
+    </string-array>
+    <array name="custom_image_list1">
+        <item>@drawable/pikachu</item>
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+    </array>
+
+
+    <string-array name="custom_title_list">
+        <item>Pikachu</item>
+        <item>Gengar</item>
+        <item>Raichu</item>
+        <item>Bulbasaur</item>
+        <item>Charizard</item>
+        <item>Greninja</item>
+        <item>Squirtle</item>
+        <item>Lucario</item>
+        <item>Snorlax</item>
+        <item>Eevee</item>
+    </string-array>
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="alert_title">Do you want to continue?</string>
+    <string name="dismiss">dismiss</string>
+    <string name="alert_message">Alert Message</string>
+    <string name="custom_grid_view">Grid View</string>
+    <string name="custom_list_view">Custom List View</string>
+    <string name="recycle_list_view">Recycler List View</string>
+    <string name="list_item_description">List Item Description</string>
+    <string name="headphone_image">Headphone Image</string>
+</resources>
+
+    <!--        <item>Jigglypuff</item>-->
+    <!--        <item>Meowth</item>-->
+    <!--        <item>Machamp</item>-->
+    <!--        <item>Gyarados</item>-->
+    <!--        <item>Dragonite</item>-->
+    <!--        <item>Blaziken</item>-->
+    <!--        <item>Mewtwo</item>-->
+    <!--        <item>Zapdos</item>-->
+    <!--        <item>Scizor</item>-->
+    <!--        <item>Alakazam</item>-->
+    <!--        <item>Infernape</item>-->
+    <!--        <item>Lucario</item>-->
+    <!--        <item>Arcanine</item>-->
+    <!--        <item>Typhlosion</item>-->
+    <!--        <item>Tyranitar</item>-->
+    <!--        <item>Metagross</item>-->
+    <!--        <item>Gallade</item>-->
+    <!--        <item>Salamence</item>-->
+    <!--        <item>Decidueye</item>-->
+    <!--        <item>Cinderace</item>-->

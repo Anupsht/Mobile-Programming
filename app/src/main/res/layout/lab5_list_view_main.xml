@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listViewMainRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingBottom="15dp"
+        android:text="@string/choose_pokemon"
+        android:textAlignment="center"
+        android:textColor="@color/salmon"
+        android:textSize="24dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/steel_blue"  />
+    <ListView
+        android:id="@+id/ListViewMainList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@color/peru"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:overScrollFooter="@color/turquoise"
+        android:overScrollHeader="@color/turquoise"
+        android:paddingTop="40dp"
+        android:paddingBottom="80dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@color/sienna" />
+</LinearLayout>

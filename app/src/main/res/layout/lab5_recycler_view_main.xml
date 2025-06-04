@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listViewMainRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingBottom="15dp"
+        android:text="@string/choose_pokemon"
+        android:textAlignment="center"
+        android:textColor="@color/salmon"
+        android:textSize="24dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/steel_blue"  />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewListMainList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:contentDescription="@string/pokemon_recycler_list"
+        android:paddingTop="40dp"
+        android:paddingBottom="50dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@color/salmon"
+        android:scrollbars="vertical" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerItemText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="15dp"
+    android:text="N/A"
+    android:textAlignment="textStart"
+    android:textColor="@color/steel_blue"
+    android:textSize="20sp"
+    android:textStyle="bold|italic"  />
