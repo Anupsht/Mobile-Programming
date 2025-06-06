@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.maps)
 
     implementation(libs.appcompat)
     implementation(libs.material)

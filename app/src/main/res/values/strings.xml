@@ -33,6 +33,7 @@
     <string name="welcome">Welcome</string>
 
     <string name="home">Home</string>
+    <string name="map_title">Google Map\n</string>
 
     <string-array name="custom_description_list">
         <item>The iconic Electric-type mascot of the Pokémon series, known for its cute appearance and thunderbolt attack.</item>
@@ -109,6 +110,7 @@
     <string name="recycle_list_view">Recycler List View</string>
     <string name="list_item_description">List Item Description</string>
     <string name="headphone_image">Headphone Image</string>
+    <string name="map_description">MAP Description</string>
 </resources>
 
     <!--        <item>Jigglypuff</item>-->
