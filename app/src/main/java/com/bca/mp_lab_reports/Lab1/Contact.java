@@ -15,47 +15,17 @@ public class Contact extends Activity {
     protected void onCreate(Bundle b){
         super.onCreate(b);
         setContentView(R.layout.lab1);
-
-        TextView headingText = findViewById(R.id.helloHeadingText);
         Button submitButton = findViewById(R.id.helloSubmitButton);
         EditText fullNameInput = findViewById(R.id.helloFullNameInput);
-        Button cancelButton = findViewById(R.id.helloCancelButton);
-
-        submitButton.setOnClickListener(v ->{
-            String inputValue = fullNameInput.getText().toString();
-            if (inputValue.isEmpty()) {
-                headingText.setText(R.string.na);
-            }else {
-                headingText.setText(inputValue);
-            }
-        });
-
         submitButton.setOnClickListener(v -> {
+            String inputValue = fullNameInput.getText().toString();
             Intent i = new Intent(Contact.this, About.class);
-
-
-            i.putExtra("gender","Male" );
-            i.putExtra("country","Nepal");
-            i.putExtra("fullname", "Anup Shrestha");
-            i.putStringArrayListExtra("sports", new ArrayList<>(Arrays.asList("Football","BasketBall","Tennis")));
-
+            i.putExtra("gender", "Male");
+            i.putExtra("country", "Nepal");
+            i.putExtra("fullname", inputValue); // Send user input instead of hardcoded name
+            i.putStringArrayListExtra("sports", new ArrayList<>(Arrays.asList("Football", "BasketBall", "Tennis")));
             startActivity(i);
         });
 
-        // Sending result back to the previous activity
-        cancelButton.setOnClickListener(v -> {
-            String sendBackData = fullNameInput.getText().toString();
-
-            if(sendBackData.isEmpty()) sendBackData = "Default Value";
-
-            Intent i = new Intent();
-            i.putExtra("contactData", sendBackData);
-            setResult(RESULT_OK, i);
-            finish();
-        });
-
     }
-
-
-
 }

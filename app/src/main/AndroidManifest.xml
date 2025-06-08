@@ -21,14 +21,14 @@
             android:value="AIzaSyBlWPMcbMp3_smL-lrBZEGYuMs7NtyVJ6c" />
 
 <!--lab 1-->
-<!--        <activity android:name=".Lab1.Contact"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN"/>-->
-<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-<!--        <activity android:name=".Lab1.About"/>-->
+        <activity android:name=".Lab1.Contact"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Lab1.About"/>
 
 <!--        lab2 -->
 <!--        <activity android:name=".Lab2.Lab2Linear"-->
@@ -104,13 +104,13 @@
 <!--        </activity>-->
 
 <!--        lab 7-->
-        <activity android:name=".Lab7.MapViewMain"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+<!--        <activity android:name=".Lab7.MapViewMain"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
 
 
 

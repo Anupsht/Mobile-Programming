@@ -48,8 +48,9 @@ public class MapViewMain extends AppCompatActivity implements OnMapReadyCallback
     }
     @Override
     public void onMapReady(@NonNull GoogleMap map) {
-        LatLng coordinates = new LatLng(27.67587, 85.3853);
-        map.addMarker(new MarkerOptions().position(coordinates).title("Madhyapur Thimi Sahar"));
+        LatLng coordinates = new LatLng(27.67727, 85.39821);
+        map.addMarker(new MarkerOptions().position(coordinates).title("Radhe Radhe, Thimi"));
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(coordinates,10));
+//        27.677274925503934, 85.39821229368852
     }
 }
