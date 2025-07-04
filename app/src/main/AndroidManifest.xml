@@ -21,14 +21,14 @@
             android:value="AIzaSyBlWPMcbMp3_smL-lrBZEGYuMs7NtyVJ6c" />
 
 <!--lab 1-->
-        <activity android:name=".Lab1.Contact"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity android:name=".Lab1.About"/>
+<!--        <activity android:name=".Lab1.Contact"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN"/>-->
+<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity android:name=".Lab1.About"/>-->
 
 <!--        lab2 -->
 <!--        <activity android:name=".Lab2.Lab2Linear"-->
@@ -89,19 +89,19 @@
 <!--                    </intent-filter>-->
 <!--                </activity>-->
 <!--        <activity android:name=".Lab5.ListViewMain"/>-->
-<!--&lt;!&ndash;        <activity android:name=".Lab5.GridViewMain"/>&ndash;&gt;-->
+<!--        <activity android:name=".Lab5.GridViewMain"/>-->
 <!--        <activity android:name=".Lab5.RecyclerViewListMain"/>-->
 <!--        <activity android:name=".Lab5.CustomGridViewMain"/>-->
-<!--&lt;!&ndash;        <activity android:name=".Lab5.CustomListViewMain"/>&ndash;&gt;-->
+<!--        <activity android:name=".Lab5.CustomListViewMain"/>-->
 
 <!--        lab 6-->
-<!--        <activity android:name=".Lab6.Lab6CRUD"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity android:name=".Lab6.Lab6CRUD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
 <!--        lab 7-->
 <!--        <activity android:name=".Lab7.MapViewMain"-->

@@ -23,7 +23,7 @@ public class Contact extends Activity {
             i.putExtra("gender", "Male");
             i.putExtra("country", "Nepal");
             i.putExtra("fullname", inputValue); // Send user input instead of hardcoded name
-            i.putStringArrayListExtra("sports", new ArrayList<>(Arrays.asList("Football", "BasketBall", "Tennis")));
+            i.putStringArrayListExtra("sports", new ArrayList<>(Arrays.asList("Football", "BasketBall", "Cricket")));
             startActivity(i);
         });
 

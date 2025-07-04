@@ -19,7 +19,7 @@
             android:id="@+id/txtProfileName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Teelesa Shrestha"
+            android:text="Aashik Thapa"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#3F51B5"
@@ -28,7 +28,7 @@
             android:id="@+id/txtProfileEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="teelesa@example.com"
+            android:text="Aashikthapa@example.com"
             android:textSize="16sp"
             android:layout_marginBottom="24dp" />
         <Button

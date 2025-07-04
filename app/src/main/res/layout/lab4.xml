@@ -6,13 +6,15 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="96dp">
         <Button
             android:id="@+id/btnHome"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Home" />
+            android:text="Home"
+            />
         <Space
             android:layout_width="4dp"
             android:layout_height="match_parent" />

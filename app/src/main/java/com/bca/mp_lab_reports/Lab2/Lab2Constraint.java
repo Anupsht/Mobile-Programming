@@ -21,8 +21,8 @@ public class Lab2Constraint extends AppCompatActivity {
         subtitleText = findViewById(R.id.subtitleText);
         messageButton = findViewById(R.id.messageButton);
         followButton = findViewById(R.id.followButton);
-        nameText.setText("Teelesa Shrestha");
-        subtitleText.setText("Full Stack Developer");
+        nameText.setText("Aashik Thapa");
+        subtitleText.setText("Android Developer");
         // Set click listeners
         messageButton.setOnClickListener(new View.OnClickListener() {
             @Override

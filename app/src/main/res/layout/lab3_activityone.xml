@@ -16,7 +16,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#3F51B5"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="96dp"
+            />
+
 
         <EditText
             android:id="@+id/editTextName"
@@ -24,7 +27,7 @@
             android:layout_height="wrap_content"
             android:hint="Full Name"
             android:inputType="textPersonName"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="48dp"/>
 
         <EditText
             android:id="@+id/editTextEmail"
