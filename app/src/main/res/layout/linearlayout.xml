@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your name"
+            android:textColorHint="@color/black"
             android:padding="12dp"
             android:background="@drawable/rounded_edittext"
             android:textSize="16sp"
@@ -35,14 +36,16 @@
                 android:id="@+id/radioMale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Male" />
+                android:text="Male"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/radioFemale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Female"
-                android:layout_marginStart="24dp" />
+                android:layout_marginStart="24dp"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <!-- Terms Checkbox -->
@@ -52,7 +55,8 @@
             android:layout_height="wrap_content"
             android:text="@string/i_agree_to_the_terms_and_conditions"
             android:textSize="14sp"
-            android:layout_marginBottom="24dp" />
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/black"/>
 
         <!-- Say Hello Button -->
         <Button
@@ -75,6 +79,21 @@
             android:textSize="24sp"
             android:textColor="#000000"
             android:gravity="center"/>
+
+        <!-- layout_gravity aligns the entire Button inside its parent -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="submit"/>
+
+        <!-- gravity aligns the text inside the Button -->
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Click Me" />
+
 
     </LinearLayout>
 </ScrollView>

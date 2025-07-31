@@ -21,8 +21,8 @@ public class Lab2Constraint extends AppCompatActivity {
         subtitleText = findViewById(R.id.subtitleText);
         messageButton = findViewById(R.id.messageButton);
         followButton = findViewById(R.id.followButton);
-        nameText.setText("Aashik Thapa");
-        subtitleText.setText("Android Developer");
+        nameText.setText("Jeevan Karki");
+        subtitleText.setText("Full Stack Developer");
         // Set click listeners
         messageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +35,7 @@ public class Lab2Constraint extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 isFollowing = !isFollowing;
-                String message = isFollowing ? "You are now following Anup" : "Unfollowed Anup";
+                String message = isFollowing ? "You are now following Jeevan" : "Unfollowed Jeevan";
                 followButton.setText(isFollowing ? "Unfollow" : "Follow");
                 Toast.makeText(Lab2Constraint.this, message, Toast.LENGTH_SHORT).show();
             }
